@@ -1,0 +1,57 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.output {
+  height: 50px;
+}
+
+button {
+  border: none;
+  font-size: 18px;
+  min-width: 40px;
+  min-height: 40px;
+  border-radius: 3px;
+}
+
+.input,
+.result {
+  color: #fff;
+  height: 20px;
+  display: block;
+  font-size: 20px;
+  text-align: right;
+  padding-right: 10px;
+}
+
+.keys {
+  gap: 5px;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.keys button:nth-child(13) {
+  grid-row: 5;
+  grid-column: 1 / 4;
+}
+
+.keys button:nth-child(15) {
+  grid-row: 4 / 6;
+  grid-column: 4;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.calculator {
+  height: 300px;
+  max-width: 260px;
+  border-radius: 3px;
+  background-color: gray;
+}
